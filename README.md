@@ -51,3 +51,4 @@ Pillars, sub-tasks, and workflow subject to change.
 - [ ] Regression example notebook
 - [ ] Correlation example notebook
 - [ ] Multiple testing correction example notebook
+- [ ] Add further objectives to README
