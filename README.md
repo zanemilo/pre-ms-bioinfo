@@ -39,7 +39,7 @@ Pillars, sub-tasks, and workflow subject to change.
 - [ ] Hypothesis testing Jupyter notebook
 
 ## TO DO
-- [ ] Venv
+- [x] Venv
 - [ ] Jupyter setup
-- [ ] Other dependencies
-- [ ] GitHub repo
+- [x] Other dependencies
+- [x] GitHub repo
