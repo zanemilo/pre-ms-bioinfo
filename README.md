@@ -38,8 +38,10 @@ Pillars, sub-tasks, and workflow subject to change.
 ## Current Focus
 - [ ] Hypothesis testing Jupyter notebook
 
+
+
 ## TO DO
 - [x] Venv
-- [ ] Jupyter setup
+- [x] Jupyter setup
 - [x] Other dependencies
 - [x] GitHub repo
