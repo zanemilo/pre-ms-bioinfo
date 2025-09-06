@@ -36,7 +36,7 @@ Pillars, sub-tasks, and workflow subject to change.
 ---
 
 ## Current Focus
-- [ ] Hypothesis testing Jupyter notebook
+- [x] Hypothesis testing Jupyter notebook - example
 
 
 
