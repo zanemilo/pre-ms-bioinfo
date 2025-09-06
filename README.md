@@ -36,7 +36,9 @@ Pillars, sub-tasks, and workflow subject to change.
 ---
 
 ## Current Focus
-- [x] Hypothesis testing Jupyter notebook - example
+- [ ] Apply Hypothesis testing to a dataset
+- [ ] Add Visualizations
+- [ ] Distributions example notebook
 
 
 
@@ -45,3 +47,7 @@ Pillars, sub-tasks, and workflow subject to change.
 - [x] Jupyter setup
 - [x] Other dependencies
 - [x] GitHub repo
+- [x] Hypothesis testing Jupyter example notebook 
+- [ ] Regression example notebook
+- [ ] Correlation example notebook
+- [ ] Multiple testing correction example notebook
