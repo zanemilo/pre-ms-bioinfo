@@ -1,1 +1,6 @@
 # Add files and directories to ignore
+/venv
+/.venv
+__pycache__/
+*.pyc
+
