@@ -22,7 +22,7 @@ Pillars, sub-tasks, and workflow subject to change.
 - Microbiology fundamentals
 
 ### 3. Programming
-- Python (`numpy`, `pandas`, `scipy`, `matplotlib`)
+- Python (`numpy`, `pandas`, `scipy`, `matplotlib`, `seaborn`)
 - R (`tidyverse`, `ggplot2`, `stats`)
 - Reusable notebook templates
 
@@ -36,11 +36,10 @@ Pillars, sub-tasks, and workflow subject to change.
 ---
 
 ## Current Focus
-- [ ] Visualization example notebook
+- [x] Visualization example notebook (Matplotlib)
+- [ ] Iris dataset example notebook (Pandas)
 - [ ] Distributions example notebook
 - [ ] Apply Hypothesis testing to a dataset
-- [ ] Add Visualizations
-
 
 
 
