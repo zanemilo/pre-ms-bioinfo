@@ -39,7 +39,7 @@ Pillars, sub-tasks, and workflow subject to change.
 - [ ] Visualization example notebook
 - [ ] Distributions example notebook
 - [ ] Apply Hypothesis testing to a dataset
-- [ ] - [ ] Add Visualizations
+- [ ] Add Visualizations
 
 
 
