@@ -36,9 +36,11 @@ Pillars, sub-tasks, and workflow subject to change.
 ---
 
 ## Current Focus
-- [ ] Apply Hypothesis testing to a dataset
-- [ ] Add Visualizations
+- [ ] Visualization example notebook
 - [ ] Distributions example notebook
+- [ ] Apply Hypothesis testing to a dataset
+- [ ] - [ ] Add Visualizations
+
 
 
 
