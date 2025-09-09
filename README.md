@@ -36,9 +36,9 @@ Pillars, sub-tasks, and workflow subject to change.
 ---
 
 ## Current Focus
-- [x] Visualization example notebook (Matplotlib)
+- [x] Visualization example notebook (Matplotlib) -> Plans to expand to more libs
 - [ ] Iris dataset example notebook (Pandas)
-- [ ] Distributions example notebook
+- [ ] Distributions example notebook -> _**In Progress**_S
 - [ ] Apply Hypothesis testing to a dataset
 
 
