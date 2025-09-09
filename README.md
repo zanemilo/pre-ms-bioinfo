@@ -1,9 +1,36 @@
-# Pre-MS Bioinformatics Training
-
 Centralized repo for my prep work before the M.S. in Bioinformatics.  
 Keep in mind the Pareto principle → 20% of effort for 80% of results.
 
 Pillars, sub-tasks, and workflow subject to change.
+
+---
+
+## Setup — venv and Jupyter (how to start)
+
+Recommended Python: 3.8+.
+
+1. Create a virtual environment (from project root)
+    - python -m venv .venv
+
+2. Activate the venv
+    - Windows (PowerShell): .venv\Scripts\Activate.ps1
+    - Windows (cmd): .venv\Scripts\activate.bat
+    - macOS / Linux: source .venv/bin/activate
+
+3. (Optional) Upgrade pip and install dependencies
+    - python -m pip install --upgrade pip setuptools
+    - pip install -r requirements.txt
+    - If you don't have a requirements file yet: pip install jupyter notebook numpy pandas scipy matplotlib seaborn
+
+4. Start Jupyter Notebook
+    - jupyter notebook
+    - or: jupyter lab (if you prefer JupyterLab)
+
+5. When finished
+    - deactivate
+
+Include a requirements.txt and a simple kernel install if you want the venv to appear in Jupyter's kernel list:
+- python -m ipykernel install --user --name=myenv --display-name="Python (myenv)"
 
 ---
 
@@ -40,8 +67,6 @@ Pillars, sub-tasks, and workflow subject to change.
 - [ ] Iris dataset example notebook (Pandas)
 - [ ] Distributions example notebook -> _**In Progress**_
 - [ ] Apply Hypothesis testing to a dataset
-
-
 
 ## TO DO
 - [x] Venv
