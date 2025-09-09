@@ -32,6 +32,38 @@ Recommended Python: 3.8+.
 Include a requirements.txt and a simple kernel install if you want the venv to appear in Jupyter's kernel list:
 - python -m ipykernel install --user --name=myenv --display-name="Python (myenv)"
 
+## Running examples and resuming work
+
+- Run interactively
+  - Start Jupyter (see above), open notebooks in examples/ or experiments/, and run cells.
+  - To run a Python script: python path/to/script.py
+
+- Run a notebook non-interactively (CI / quick run)
+  - jupyter nbconvert --to notebook --execute path/to/notebook.ipynb --output executed.ipynb
+
+- Quick checks
+  - Run a small example: python examples/example_script.py (adjust path/name)
+
+- Committing progress
+  - git add <files>
+  - git commit -m "brief note"
+  - git push origin <branch>
+
+- Resume work later
+  1. cd /path/to/project
+  2. Activate venv: source .venv/bin/activate (or platform equivalent)
+  3. (If needed) pip install -r requirements.txt
+  4. Start Jupyter: jupyter notebook (or jupyter lab) and open your notebook
+  5. If the venv kernel is not listed, reinstall the kernel:
+     - python -m ipykernel install --user --name=myenv --display-name="Python (myenv)"
+  6. Pull updates if collaborating: git pull
+
+- Cleanup when done
+  - deactivate
+  - remove temporary files or checkpoints as needed
+
+This makes it easy to run examples, save work, and come back to the project later.
+
 ---
 
 ## Main Pillars to tackle
