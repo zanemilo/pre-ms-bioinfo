@@ -51,7 +51,7 @@ Include a requirements.txt and a simple kernel install if you want the venv to a
 
 - Resume work later
   1. cd /path/to/project
-  2. Activate venv: source .venv/bin/activate (or platform equivalent)
+  2. Activate venv: .venv/Scripts/activate  (or platform equivalent)
   3. (If needed) pip install -r requirements.txt
   4. Start Jupyter: jupyter notebook (or jupyter lab) and open your notebook
   5. If the venv kernel is not listed, reinstall the kernel:
