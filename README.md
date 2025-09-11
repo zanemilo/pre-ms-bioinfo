@@ -95,9 +95,9 @@ This makes it easy to run examples, save work, and come back to the project late
 ---
 
 ## Current Focus
-- [x] Visualization example notebook (Matplotlib) -> Plans to expand to more libs
+- [x] Visualization example notebook (Matplotlib) -> Plans to expand to more 
+- [x] Distributions example notebook
 - [ ] Iris dataset example notebook (Pandas)
-- [ ] Distributions example notebook -> _**In Progress**_
 - [ ] Apply Hypothesis testing to a dataset
 
 ## TO DO
@@ -108,5 +108,5 @@ This makes it easy to run examples, save work, and come back to the project late
 - [x] Hypothesis testing Jupyter example notebook 
 - [ ] Regression example notebook
 - [ ] Correlation example notebook
-- [ ] Multiple testing correction example notebook
+- [ ] Multiple testing correction (FDR) example notebook
 - [ ] Add further objectives to README
