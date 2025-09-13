@@ -98,6 +98,10 @@ This makes it easy to run examples, save work, and come back to the project late
 - [x] Visualization example notebook (Matplotlib) -> Plans to expand further libs 
 - [x] Distributions example notebook
 - [x] Iris dataset example notebook (Pandas/Seaborn)
+- [ ] Regression example notebook
+- [ ] Correlation example notebook
+- [ ] Multiple testing correction (FDR) example notebook
+- [ ] ML example notebook -> as it pertains to bioinformatics
 - [ ] Apply Hypothesis testing to a dataset
 
 ## TO DO
@@ -106,7 +110,5 @@ This makes it easy to run examples, save work, and come back to the project late
 - [x] Other dependencies
 - [x] GitHub repo
 - [x] Hypothesis testing Jupyter example notebook 
-- [ ] Regression example notebook
-- [ ] Correlation example notebook
-- [ ] Multiple testing correction (FDR) example notebook
+- [ ] R setup and example notebook
 - [ ] Add further objectives to README
