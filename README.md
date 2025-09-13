@@ -95,9 +95,9 @@ This makes it easy to run examples, save work, and come back to the project late
 ---
 
 ## Current Focus
-- [x] Visualization example notebook (Matplotlib) -> Plans to expand to more 
+- [x] Visualization example notebook (Matplotlib) -> Plans to expand further libs 
 - [x] Distributions example notebook
-- [ ] Iris dataset example notebook (Pandas/Seaborn) _**In_Progress**_
+- [x] Iris dataset example notebook (Pandas/Seaborn)
 - [ ] Apply Hypothesis testing to a dataset
 
 ## TO DO
