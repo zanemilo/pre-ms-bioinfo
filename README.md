@@ -55,7 +55,8 @@ Include a requirements.txt and a simple kernel install if you want the venv to a
   3. (If needed) pip install -r requirements.txt
   4. Start Jupyter: jupyter notebook (or jupyter lab) and open your notebook
   5. If the venv kernel is not listed, reinstall the kernel:
-     - python -m ipykernel install --user --name=myenv --display-name="Python (myenv)"
+     - ```python -m ipykernel install --user --name=myenv --display-name="Python (myenv)"```
+     - for the R kernel see ('getting started R' notebook)[./getting_started_r.ipynb]
   6. Pull updates if collaborating: git pull
 
 - Cleanup when done
@@ -74,6 +75,8 @@ This makes it easy to run examples, save work, and come back to the project late
 - Hypothesis testing (t-test, chi-square)
 - Correlation & regression
 - Multiple testing correction (FDR)
+- Probability
+
 
 ### 2. Biology
 - Cell/molecular basics
@@ -84,6 +87,12 @@ This makes it easy to run examples, save work, and come back to the project late
 - Python (`numpy`, `pandas`, `scipy`, `matplotlib`, `seaborn`)
 - R (`tidyverse`, `ggplot2`, `stats`)
 - Reusable notebook templates
+
+### 4. Bonus: Math & LaTeX
+- LaTeX syntax notebook
+- Calculus
+- Linear Algebra
+- Graph Theory
 
 ---
 
@@ -98,11 +107,10 @@ This makes it easy to run examples, save work, and come back to the project late
 - [x] Visualization example notebook (Matplotlib) -> Plans to expand further libs 
 - [x] Distributions example notebook
 - [x] Iris dataset example notebook (Pandas/Seaborn)
-- [ ] Regression example notebook
-- [ ] Correlation example notebook
-- [ ] Multiple testing correction (FDR) example notebook
-- [ ] ML example notebook -> as it pertains to bioinformatics
-- [ ] Apply Hypothesis testing to a dataset
+- [ ] R example notebook
+- [ ] RNA-seq pipeline set up
+- [ ] K-means notebook
+
 
 ## TO DO
 - [x] Venv
@@ -110,5 +118,11 @@ This makes it easy to run examples, save work, and come back to the project late
 - [x] Other dependencies
 - [x] GitHub repo
 - [x] Hypothesis testing Jupyter example notebook 
-- [ ] R setup and example notebook
+- [x] R setup notebook
+- [ ] Regression example notebook
+- [ ] Correlation example notebook
+- [ ] Multiple testing correction (FDR) example notebook
+- [ ] ML example notebook -> as it pertains to bioinformatics
+- [ ] Apply Hypothesis testing to a dataset
+- [ ] Organize and improve directory
 - [ ] Add further objectives to README
